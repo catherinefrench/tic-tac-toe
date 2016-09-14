@@ -19,8 +19,8 @@ body {
 .square {
   width: 200px;
   height: 200px;
-  border: 5px solid black;
-  font-size: 5rem;
+  border: 10px solid black;
+  font-size: 10rem;
   text-align: center;
 }
 
