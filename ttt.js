@@ -16,6 +16,9 @@
 
       turn++; // adds 1 per turn to counter
     }
+    else {
+      alert("Square already occupied! Pick another!") //adds alert to display if square has value
+    }
     //this = the DOM element on which the event occured (value always changing), the $ makes it a jQuery object
    });
  });
