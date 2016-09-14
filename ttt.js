@@ -14,6 +14,7 @@
       $(this).text('O');
     }
 
+      turn++;
 
     //this = the DOM element on which the event occured (value always changing), the $ makes it a jQuery object
    });
