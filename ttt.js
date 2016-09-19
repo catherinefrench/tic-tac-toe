@@ -4,7 +4,7 @@
  $(function() {
    var turn = 0; //sets turn variable to 0 within function so it's accessible throughout scope of function
 
-   function checkWin(){
+   function checkWin(){ //function to check if there's a win with conditional statements.
      var one = $('#1').text();
      var two = $('#2').text();
      var three = $('#3').text();
